@@ -7,7 +7,7 @@ class Application
   resp.write "#{t}\n"
   if time >= 0000
     resp.write "Good Morning!"
-  elsif time <= 1300
+  else 
     resp.write "Good Afternoon!"
   end
    resp.finish
