@@ -1,1 +1,3 @@
-class 
+class Application
+  R
+end
