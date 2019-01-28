@@ -4,6 +4,7 @@ class Application
   resp = Rack::Response.new 
   time = Time.now.to_i
   t = Time.now.hour
+  resp.write
   if t <= 1200
     resp.write "Good Morning!"
   elsif t == 1200 
