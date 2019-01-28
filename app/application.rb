@@ -1,4 +1,6 @@
 class Application
+  
+  def call
   resp = Rack::Response.new 
   
   if Time.now.to_i > 12
@@ -6,4 +8,5 @@ class Application
   else 
     resp.write "Good Afternoon!"
   end
+ end 
 end
