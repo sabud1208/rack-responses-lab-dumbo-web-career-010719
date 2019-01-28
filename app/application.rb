@@ -6,7 +6,7 @@ class Application
   t = Time.now.hour
   if t <= 1200
     resp.write "Good Morning!"
-  else 
+  elsif t >= 1200 
     resp.write "Good Afternoon!"
   end
    resp.finish
