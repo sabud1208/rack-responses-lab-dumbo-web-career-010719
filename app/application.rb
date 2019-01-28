@@ -4,7 +4,7 @@ class Application
   resp = Rack::Response.new 
   time = Time.now.to_i
   
-  if Time.now.to_i = time
+  if Time.hour = time
     resp.write "Good Morning!"
   else 
     resp.write "Good Afternoon!"
