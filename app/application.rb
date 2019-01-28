@@ -5,7 +5,7 @@ class Application
   time = Time.now.to_i
   t = Time.now.hour
   resp.write "#{t}\n"
-  if t >= 1200
+  if t == 1200
     resp.write "Good Morning!"
   elsif t <= 1200 
     resp.write "Good Afternoon!"
