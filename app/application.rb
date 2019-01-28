@@ -7,7 +7,7 @@ class Application
   resp.write "#{t}\n"
   if t <= 1200
     resp.write "Good Morning!"
-  elsif t == 1200 
+  elsif t >= 1200 
     resp.write "Good Afternoon!"
   end
    resp.finish
