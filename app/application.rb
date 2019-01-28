@@ -1,3 +1,4 @@
 class Application
-  resp = Rack::
+  resp = Rack::Response.new 
+  
 end
